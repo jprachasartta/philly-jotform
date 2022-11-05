@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 01 mapbox dependencies -->
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link
+          href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
+     
+        <!-- 02 deck.gl dependencies -->
+        <script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script>
+     
+        <!-- 03 jotform dependencies -->
+        <script src="https://js.jotform.com/JotForm.js"></script>
+     
+        <!-- 04 connection to style.css -->
+        <link rel="stylesheet" href="./style.css" />
+        <title>test-jotform</title>
+      </head>
+     
+      <body>
+        <!-- 06 map container that map.js will access (put above script tag)-->
+        <div id="map"></div>
+        <div id="form">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/223075945414053"></script>
+        </div>
+        <!-- 05 connection to map.js -->
+        <script src="./map.js"></script>
+      </body>
+</html>
